@@ -1,3 +1,5 @@
+This is a fork of /pmb6tz/windows-desktop-switcher, intended to create a more consistent keyboard shortcut layout with windows 10 defaults.
+
 # windows-desktop-switcher
 An AutoHotkey script for Windows that lets a user switch virtual desktops by pressing <kbd>CapsLock</kbd> and a number row key at the sime time (e.g. <kbd>CapsLock</kbd> + <kbd>2</kbd> to switch to Desktop 2). It also provides other features, such as customizing the key combinations, creation/deletion of desktops by hotkey, etc. (see Hotkeys section below).
 
