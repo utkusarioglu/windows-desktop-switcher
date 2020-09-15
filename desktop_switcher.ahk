@@ -135,9 +135,16 @@ updateGlobalVariables()
 
 switchDesktopByNumber(targetDesktop)
 {
+    Progress, cw000000 CTFFFFFF w120 h120 ZX ZY  m b fs80 zh0,%targetDesktop%,, text popup, Segoe
+    WinSet, Transparent, 150, text popup
+
     global CurrentDesktop, DesktopCount
     updateGlobalVariables()
     _switchDesktopToTarget(targetDesktop)
+
+    sleep 250
+    Progress, Off
+    return
 }
 
 switchDesktopToLastOpened()
