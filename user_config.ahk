@@ -21,6 +21,8 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
+global DESKTOP_NAMES := ["Active 1", "Active 2", "Passive", "Schedule", "Social"]
+
 ^#1::switchDesktopByNumber(1)
 ^#2::switchDesktopByNumber(2)
 ^#3::switchDesktopByNumber(3)

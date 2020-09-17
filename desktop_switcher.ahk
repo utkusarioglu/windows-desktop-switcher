@@ -135,7 +135,10 @@ updateGlobalVariables()
 
 switchDesktopByNumber(targetDesktop)
 {
-    Progress, cw000000 CTFFFFFF w120 h120 ZX ZY  m b fs80 zh0,%targetDesktop%,, text popup, Segoe
+    
+    desktop_name := DESKTOP_NAMES[targetDesktop]
+    Progress, cw000000 CTFFFFFF h140 w400 ZX20 ZY11 m b fs60 zh0 X100 Y830, %desktop_name%,, text popup, Segoe UI
+    ; Progress, cw000000 CTFFFFFF w120 h120 ZX ZY  m b fs80 zh0,%targetDesktop%,, text popup, Segoe
     WinSet, Transparent, 150, text popup
 
     global CurrentDesktop, DesktopCount
