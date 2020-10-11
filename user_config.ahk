@@ -21,17 +21,17 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-global DESKTOP_NAMES := ["Active 1", "Active 2", "Passive", "Schedule", "Social"]
+global DESKTOP_NAMES := ["Schedule", "Social", "Passive", "Active 1", "Active 2"]
 
-^#1::switchDesktopByNumber(1)
-^#2::switchDesktopByNumber(2)
-^#3::switchDesktopByNumber(3)
-^#4::switchDesktopByNumber(4)
-^#5::switchDesktopByNumber(5)
-^#6::switchDesktopByNumber(6)
-^#7::switchDesktopByNumber(7)
-^#8::switchDesktopByNumber(8)
-^#9::switchDesktopByNumber(9)
+^#m::switchDesktopByNumber(1)
+^#,::switchDesktopByNumber(2)
+^#.::switchDesktopByNumber(3)
+^#j::switchDesktopByNumber(4)
+^#k::switchDesktopByNumber(5)
+^#l::switchDesktopByNumber(6)
+^#u::switchDesktopByNumber(7)
+^#i::switchDesktopByNumber(8)
+^#o::switchDesktopByNumber(9)
 
 ^#Numpad1::switchDesktopByNumber(1)
 ^#Numpad2::switchDesktopByNumber(2)
